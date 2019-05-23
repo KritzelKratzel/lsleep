@@ -1,7 +1,7 @@
 package = "lsleep"
 version = "1.0-1"
 source = {
-   url = "http://..." -- We don't have one yet
+   url = "https://github.com/andrewstarks/lsleep" -- We don't have one yet
 }
 description = {
    summary = "lsleep: sleep and usleep for lua.",
@@ -10,11 +10,11 @@ description = {
 
       If you're requiring LuaSocket and don't need subsecond sleeping, then you don't need this. LuaSocket has sleep included. I just thought it was weird that there was no way to sleep without requiring a socket library.
    ]],
-   homepage = "http://...", -- We don't have one yet
+   homepage = "https://github.com/andrewstarks/lsleep", -- We don't have one yet
    license = "MIT/X11" -- or whatever you like
 }
 dependencies = {
-   "lua ~> 5.2"
+   "lua >= 5.2"
    -- If you depend on other rocks, add them here
 }
 build = {
