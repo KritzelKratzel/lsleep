@@ -1,8 +1,8 @@
 package = "lsleep"
-version = "1.0-1"
+version = "1.0-2"
 source = {
    url = "git://github.com/andrewstarks/lsleep", -- We don't have one yet
-   tag = "v1.01"
+   tag = "v1.02"
 }
 description = {
    summary = "lsleep: sleep and usleep for lua.",
