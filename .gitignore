@@ -17,6 +17,7 @@ ipch/**
 *.dll
 *.exe
 *.dylib
+*.rock
 
 #don't ignore stuff in nuget folder.
 !/.nuget/**/*.*
