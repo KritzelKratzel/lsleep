@@ -2,7 +2,7 @@ package = "lsleep"
 version = "1.0-4"
 source = {
    url = "git://github.com/andrewstarks/lsleep", -- We don't have one yet
-   tag = "v1.04"
+   tag = "v1.05"
 }
 
 
