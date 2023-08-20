@@ -10,12 +10,16 @@ Because sometimes, you just want sleep.
 
 ```lua
 local lsleep = require 'lsleep'
-lsleep(3) --wait three seconds. Argument must be integer.
+lsleep(3) -- wait three seconds. Argument must be integer.
 
-local sleep, usleep = lsleep.sleep, lsleep.usleep
-sleep(1) --wait one second.
-usleep(2.5 * 1000000) --wait 25_000_000 µs (2.5 seconds)
+local sleep  = lsleep.sleep
+local usleep = lsleep.usleep
+
+sleep(1) -- wait one second.
+usleep(2.5 * 1000000) -- wait 25_000_000 µs (2.5 seconds)
 ```
+
+**Note:** Original documentation for `lsleep:usleep (wait)` is somewhat erroneous. Argument `wait` counts in microseconds and not in units of 100 nanoseconds.
 
 ## Building and Installing lsleep
 
